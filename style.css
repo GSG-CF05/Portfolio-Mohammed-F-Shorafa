@@ -1,0 +1,46 @@
+body{
+    font-family: 'Supermercado One', cursive; 
+   background-image: url(img/background3.jpg);
+}
+.container {
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+img{
+   width: 188px;
+}
+header nav{
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+header .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    position: relative; 
+}
+header nav ul {
+   display: flex;
+}
+header nav ul li a{
+   display: block;
+   text-decoration: none;
+   padding: 30px;
+   font-size: 30px;
+}
+
+section .container{
+   padding-left: 100px;
+   padding-top: 100px;
+}
+section .container p{
+   font-size: 50px;
+   color: floralwhite;
+}
+section .container .p2{
+   font-size: 14px;
+}
